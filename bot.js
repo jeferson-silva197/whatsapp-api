@@ -153,8 +153,8 @@ app.post('/send-message', [
 
 // EVENTO DE ESCUTA/ENVIO DE MENSAGENS RECEBIDAS PELA API
 client.on('message', async msg => {
-    console.log('MESSAGE RECEIVED', msg);
-    client.sendMessage(msg.from, 'Mensagem Automática: Teste de automação de Whatsapp API');
+   // console.log('MESSAGE RECEIVED', msg);
+   // client.sendMessage(msg.from, 'Mensagem Automática: Teste de automação de Whatsapp API');
 });
 
 // INITIALIZE DO SERVIÇO
