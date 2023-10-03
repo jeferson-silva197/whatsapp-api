@@ -16,8 +16,9 @@
     }
 
     .qrcode-img {
-      max-width: 100%;
+      max-width: 20%; /* Define o tamanho máximo para 100% da largura do contêiner pai */
       height: auto;
+      max-height: 250; /* Define a altura máxima para 400 pixels */
     }
 
     .logs-title {
@@ -28,14 +29,14 @@
 
     .list-group-item {
       font-size: 1.1rem;
-      text-align: left; /* Ajuste para alinhar à esquerda */
+      text-align: left;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <p  class="lead mb-3">Autenticação WhatsApp</p >
+    <p  class="lead mb-3">Autenticação WhatsApp</p>
  
     <img src="" alt="QR Code" class="img-fluid qrcode-img" id="qrcode">
     <h3 class="logs-title">Registros:</h3>
